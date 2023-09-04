@@ -14,16 +14,16 @@ Welcome to the BookWise LibraSuite, a comprehensive library management system de
 ## Getting Started
 
 1. **Clone the Repository**: Clone this repository to your local machine.
-2. **Database Setup**: Ensure you have set up the required database as per the provided following SQL instructions.
-3. --create database
-4. 
+2. **Database Setup**: please set up the required database as per the provided following SQL instructions.
+ (create database if it does not exists)
+ 
 CREATE DATABASE IF NOT EXISTS yourDataBaseName;
 
--- Switch to the your database
+(Switch to the your database)
 
 USE yourDataBaseName;
 
--- Create the books table to store book information
+(Create the books table to store book information)
 
 
 CREATE TABLE IF NOT EXISTS books (
@@ -33,7 +33,7 @@ CREATE TABLE IF NOT EXISTS books (
 );
 
 
---feel free to add more features as per your need and update them accordingly in code .
+(feel free to add more features as per your need and update them accordingly in code!!)
 
 4. **Run the Application**: Launch the application from your terminal to begin managing your library efficiently.
 
