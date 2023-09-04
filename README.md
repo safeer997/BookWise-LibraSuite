@@ -15,18 +15,23 @@ Welcome to the BookWise LibraSuite, a comprehensive library management system de
 
 1. **Clone the Repository**: Clone this repository to your local machine.
 2. **Database Setup**: Ensure you have set up the required database as per the provided following SQL instructions.
-3. -- Create the database if it doesn't exist
+3. --create database
+4. 
 CREATE DATABASE IF NOT EXISTS yourDataBaseName;
 
 -- Switch to the your database
+
 USE yourDataBaseName;
 
 -- Create the books table to store book information
+
+
 CREATE TABLE IF NOT EXISTS books (
     id INT AUTO_INCREMENT PRIMARY KEY,
     title VARCHAR(255) NOT NULL,
     author VARCHAR(255) NOT NULL
 );
+
 
 --feel free to add more features as per your need and update them accordingly in code .
 
